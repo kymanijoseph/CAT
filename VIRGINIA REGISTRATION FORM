@@ -1,0 +1,23 @@
+cd C:\Users\Virginia\Documents\NetBeansProjects\reggy; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_202" cmd /c "\"C:\\Program Files\\NetBeans-16\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.reggy.Reggy \"-Dexec.executable=C:\\Program Files\\Java\\jdk1.8.0_202\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-16\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 process-classes org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Scanning for projects...
+
+------------------------< com.mycompany:reggy >-------------------------
+Building reggy 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ reggy ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\Virginia\Documents\NetBeansProjects\reggy\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ reggy ---
+Changes detected - recompiling the module!
+Compiling 2 source files to C:\Users\Virginia\Documents\NetBeansProjects\reggy\target\classes
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ reggy ---
+Hello World!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  7.806 s
+Finished at: 2023-11-29T11:03:47+03:00
+------------------------------------------------------------------------
